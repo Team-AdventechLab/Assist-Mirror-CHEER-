@@ -1,5 +1,5 @@
 # 🚀 Join the contest　プロジェクト
-
+<!--ヘッダー的な役割。使用サービスのバッジと画像を表示する-->
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
 <!--![Raspberry Pi](https://img.shields.io/badge/RaspberryPi-yes-green?logo=raspberry-pi)-->
 <!--![AWS](https://img.shields.io/badge/AWS-EC2-orange?logo=amazon-aws)-->
@@ -27,19 +27,19 @@
 ---
 
 ## ④ 🖼 図解 / フロー
-<!--システム構成やフローを図。Ｃａｎｖａとかで作成？どなたかセンスのある方！-->  
+<!--システム構成やフローを図。Ｃａｎｖａとかで作成？どなたかセンスのある方！村本ぺーは苦手-->  
 
 <!--![システムフロー](./images/flow.png)-->
 
 ---
 
 ## ⑤ 🚀 特徴
-<!--成果物の特徴や工夫したところを簡単に。主なのはＷＥＢに記載するので-->
+<!--成果物の特徴や工夫したところを簡単に。主なのはＷＥＢに記載するので詳細はいらないかも-->
 
 ---
 
 ## ⑥ 👥 Ａｂｏｕｔ　Ｕｓ
-これまでのキャリアも年齢もバラバラのメンバーが、現在は同じ教室の勉強仲間。
+これまでのキャリアも年齢もバラバラのメンバーが、同じ教室の勉強仲間に。
 
 ---
 

@@ -10,6 +10,7 @@ OUTPUT_DIR = "sounds"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # 変換したい文章リスト
+# テキストの内容は要相談。短めがいい？？
 texts = [
     "おはよう！今日も笑顔が素敵だね！",
     "やったね！とてもいい笑顔だよ！",

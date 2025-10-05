@@ -25,7 +25,12 @@ texts = [
 ]
 
 # 使用するキャラクターID
-speaker_id = 3  # ずんだもん・なみだめ
+speaker_id = 0  # 四国メタン　あまあま
+#speaker_id = 2  # 四国メタン　のーまる
+#speaker_id = 3 #ずんだもん　のーまる
+#speaker_id = 1 #ずんだもん　あまあま
+#speaker_id = 76 #ずんだもん　なみだめ
+#speaker_id = 42 #ちび式じい
 
 for i, text in enumerate(texts, start=1):
     # Step1: 音声合成用のクエリ作成

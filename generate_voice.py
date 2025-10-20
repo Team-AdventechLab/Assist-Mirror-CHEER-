@@ -12,22 +12,18 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 # 変換したい文章リスト
 # テキストの内容は要相談。短めがいい？？
 texts = [
-    "おはよう！今日も笑顔が素敵だね！",
-    "やったね！とてもいい笑顔だよ！",
-    "その調子！とっても楽しそう！",
-    "ナイススマイル！最高だよ！",
-    "今日の笑顔もめっちゃかわいい！",
-    "その笑顔イケメンすぎる！まぶしーー！",
-    "起きろ！起きろ！起きろーー！！！",
-    "起きてチョーだい",
-    "もう寝たんですか？まだ勉強初めたばかりですよ",
-    "疲れてるのかな？でも頑張って！",
+    "今日の笑顔も素敵です",
+    "とってもいい笑顔",
+    "その調子！！",
+    "ナイススマイル",
+    "笑顔がまぶしいぞ～",
+    "その笑顔最高です",
 ]
 
 # 使用するキャラクターID
-speaker_id = 0  # 四国メタン　あまあま
+#speaker_id = 0  # 四国メタン　あまあま
 #speaker_id = 2  # 四国メタン　のーまる
-#speaker_id = 3 #ずんだもん　のーまる
+speaker_id = 3 #ずんだもん　のーまる
 #speaker_id = 1 #ずんだもん　あまあま
 #speaker_id = 76 #ずんだもん　なみだめ
 #speaker_id = 42 #ちび式じい
@@ -41,7 +37,7 @@ for i, text in enumerate(texts, start=1):
     query_json = query.json()
 
     # --- 🎛 パラメータ調整 ---
-    query_json["speedScale"] = 1.5       # 話速（1.0 が標準、2.0で2倍速）
+    query_json["speedScale"] = 1.1       # 話速（1.0 が標準、2.0で2倍速）
     query_json["intonationScale"] = 1.3  # 抑揚（1.0 が標準、数値を上げると強調）
     query_json["pitchScale"] = 0.0       # 音高（±で上下、0.0 が標準）
     query_json["volumeScale"] = 1.0      # 音量（1.0 が標準）
@@ -57,7 +53,7 @@ for i, text in enumerate(texts, start=1):
     )
 
     # ファイル保存
-    file_path = os.path.join(OUTPUT_DIR, f"voice_{i}.wav")
+    file_path = os.path.join(OUTPUT_DIR, f"voice_{i}四国めたん.wav")
     with open(file_path, "wb") as f:
         f.write(synthesis.content)
 
